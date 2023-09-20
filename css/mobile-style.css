@@ -1,0 +1,86 @@
+@media only screen and (max-width:768px) {
+    header .navbar-brand {
+        padding-left: 1rem;
+    }
+
+    .section-1 .row .col-md-6 .panel {
+        position: initial;
+        width: initial;
+        height: initial;
+    }
+
+    .section-2 .cover {
+        background-position: -25vmin -10vmin;
+    }
+
+    .numbers .rect {
+        width: 10rem;
+        height: 8rem;
+    }
+
+    .numbers .rect h1 {
+        font-size: 2rem;
+    }
+
+    .section-3 {
+        height: inherit;
+        padding: 10vmin !important;
+    }
+
+    .section-3 .row h1 {
+        padding: 6vmin 4vmin;
+    }
+
+    .section-3 .row .col-md-6 {
+        text-align: center !important;
+    }
+
+    .section-3 .desktop i {
+        font-size: 8vmin;
+    }
+
+    .section-book .carousel-item {
+        padding-left: 0.6rem;
+    }
+
+    .section-book .team-row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .section-book .carousel-inner {
+        width: 24rem;
+    }
+}
+
+@media only screen and(max-width:425px) {
+    footer .row .col-md-2 {
+        margin-top: 8vmin;
+    }
+}
+
+@media only screen and (max-width:320px) {
+    .section-book .card {
+        width: 16rem;
+    }
+
+    .section-book .team,
+    .carousel-inner {
+        margin-left: -16vmin;
+    }
+
+    .platform .desktop {
+        margin: 10px;
+    }
+
+    .platform .desktop .text h3 {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .platform .desktop .text p {
+        font-size: 0.7rem;
+    }
+}
