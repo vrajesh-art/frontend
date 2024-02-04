@@ -47,17 +47,22 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        width: 100%;
 
     }
 
     .section-book .carousel-inner {
-        width: 24rem;
+        width: 18rem;
     }
 }
 
 @media only screen and(max-width:425px) {
     footer .row .col-md-2 {
         margin-top: 8vmin;
+    }
+
+    .section-book .team-row {
+        padding: 0px;
     }
 }
 
@@ -68,7 +73,15 @@
 
     .section-book .team,
     .carousel-inner {
-        margin-left: -16vmin;
+        margin-left: -12vmin;
+    }
+
+    .section-book .stat {
+        margin-right: 20px;
+    }
+
+    .section-book .stat2 {
+        margin-left: -18px;
     }
 
     .platform .desktop {

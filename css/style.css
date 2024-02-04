@@ -301,7 +301,7 @@ header .container .col-md-7 button {
 }
 
 .section-book .team-row {
-    padding: 10vmin 4vmin;
+    /* padding: 10vmin 4vmin; */
 }
 
 .section-book .card {
@@ -318,7 +318,7 @@ header .container .col-md-7 button {
 }
 
 .section-book .carousel-item {
-    padding-left: 3rem;
+    padding-left: 1rem;
 }
 
 .border-radius {
